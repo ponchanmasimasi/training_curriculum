@@ -20,10 +20,11 @@
         </div>
         <ul class='content'>
          <% if day[:plans].length != 0 %>
-            <% day[:plans].each do |plan| %>
-             <li class='plan-list'>・<%= plan %></li>
-            <% end %>
-         <% end %>
+
+          <% day[:plans].each do |plan| %>
+            <li class='plan-list'>・<%= plan %></li>
+          <% end %>
+
         </ul>
       </div>
     <% end %>
